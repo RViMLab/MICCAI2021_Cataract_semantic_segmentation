@@ -1,0 +1,38 @@
+{
+  "name": "UPerNet_r34_RF_Lovasz",
+  "manager": "EncDec",
+  "encoder": {
+    "model": "ResNet34",
+    "pretrained": false
+  },
+  "decoder": {
+    "model": "UPerNet"
+  },
+
+  "loss": {
+    "losses": {
+      "LovaszSoftmax": 1
+    }
+  },
+
+  "data": {
+    "experiment": 2,
+    "blacklist": false,
+    "use_relabeled": false,
+    "transforms": ["pad", "flip", "blur", "colorjitter","torchvision_normalise"],
+    "batch_size": 8,
+    "split": 2,
+    "repeat_factor": [0],
+    "repeat_factor_freq_thresh": 0.15,
+    "num_workers": 4
+  },
+  "train": {
+    "learning_rate": 1e-4,
+    "lr_fct": "exponential",
+    "lr_restarts": [],
+    "lr_restart_vals": 1,
+    "lr_batchwise": false,
+    "epochs": 50
+  },
+  "gpu_device": 2
+}

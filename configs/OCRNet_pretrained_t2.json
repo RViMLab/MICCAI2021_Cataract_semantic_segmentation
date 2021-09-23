@@ -1,0 +1,29 @@
+{
+  "name": "OCRNet_on_test_set",
+  "mode": "inference",
+  "manager": "OCRNet",
+  "graph": {
+    "model": "OCRNet",
+    "backbone": "resnet50",
+    "out_stride": 8,
+    "pretrained": false
+  },
+
+  "load_checkpoint": "20210625_201750_e2__OCRNet_camera_ready",
+
+  "data": {
+    "use_relabeled": false,
+    "blacklist": false,
+    "experiment": 2,
+    "transforms": ["pad"],
+    "split": 2,
+    "batch_size": 1
+  },
+
+  "train": {},
+  "loss": {},
+  "log_every_n_epochs": 100,
+  "cuda": true,
+  "gpu_device": 0,
+  "seed": 0
+}

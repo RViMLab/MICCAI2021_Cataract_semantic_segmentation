@@ -8,6 +8,9 @@
 > *arXiv technical report ([arXiv 2108.06119](https://arxiv.org/pdf/2108.06119))*
 
 
+## News
+[28/09/2021] Paper to be presented at MICCAI 2021
+
 ## Introduction
 
 This repository contains the implementation and model weights 
@@ -95,6 +98,16 @@ The provided models achieve SOTA performance as shown in the table below:
 
 ## Qualitative results
 Qualitative results on unseen surgical video can be found [here](https://youtu.be/twVIPUj1WZM).
+
+## Licensing and copyright 
+
+Please see the LICENSE file for details.
+
+## Acknowledgements
+[nihr]: http://www.nihr.ac.uk/
+[erc]: https://erc.europa.eu/
+This work was supported through an Invention for Innovation grant [II-LB-0716-20002] by the [National Institute for Health Research][nihr],
+through a grant [714562] by the [European Research Council][erc] and by Sir Michael Uren Foundation.
 
 ## Citation
 ```

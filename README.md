@@ -1,7 +1,7 @@
 # Effective Semantic Segmentation in Cataract Surgery: What matters most? 
 #### Presented at MICCAI 2021
 
-![fig](misc/fig1v2.png)
+![fig](https://github.com/RViMLab/MICCAI2021_Cataract_semantic_segmentation/blob/main/misc/fig1v2.PNG)
 
 > [**Effective Semantic Segmentation in Cataract Surgery: What matters most?**](https://arxiv.org/pdf/2108.06119),            
 > [Theodoros Pissas*](https://rvim.online/author/theodoros-pissas/), [Claudio S. Ravasio*](https://rvim.online/author/claudio-ravasio/), [Lyndon Da Cruz](), [Christos Bergeles](https://rvim.online/author/christos-bergeles/)  <br>
@@ -100,8 +100,7 @@ Pretrained models can be found [here](https://drive.google.com/drive/folders/1Tv
 
 The provided models achieve SOTA performance as shown in the table below: 
 
-![fig](misc/comparison table v2.png)
-
+![fig](https://github.com/RViMLab/MICCAI2021_Cataract_semantic_segmentation/blob/main/misc/table1.png)
 
 ## Qualitative results
 Qualitative results on unseen surgical video can be found [here](https://youtu.be/twVIPUj1WZM).

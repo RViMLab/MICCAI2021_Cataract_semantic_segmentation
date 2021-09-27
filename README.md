@@ -93,7 +93,7 @@ Pretrained models can be found [here](https://drive.google.com/drive/folders/1Tv
 (no blacklisting nor relabelled data used)
 
 |Task       | Backbone  | Model     | Loss       | Sampling      | Test set mIoU | CKPT | args to train | args for inference |
-| --------- | --------- | ----------| ---------- | --------- | ------- | ---------- | ---------- | ---------- |
+| --------- | --------- | ----------| ---------- | --------- | ------- | ---------- | -------------------- | -------------------- |
 | 1         | ResNet-50 | OCR       | Lovasz     | Repeat Factor | 86.40| [ckpt](https://drive.google.com/drive/folders/1btnFihg8gIssxFg2UmZXjr0NjS343rDQ?usp=sharing) |```-c configs/OCRNet_rf_lvsz.json -t 1```| ```-c configs/OCRNet_pretrained_t1.json```|
 | 2         | ResNet-50 | OCR       | Lovasz     | Repeat Factor | 79.40| [ckpt](https://drive.google.com/drive/folders/1Z5AZ5aNCaNDi1zGArQTzAOt8uCVLmnRy?usp=sharing) |```-c configs/OCRNet_rf_lvsz.json -t 2```| ```-c configs/OCRNet_pretrained_t2.json```|
 | 3         | ResNet-50 | OCR       | Lovasz     | Repeat Factor | 71.94| [ckpt](https://drive.google.com/drive/folders/1igYtGpwk8s6oirH5rCz1XF0YIxHwxRuh?usp=sharing) |```-c configs/OCRNet_rf_lvsz.json -t 3```| ```-c configs/OCRNet_pretrained_t3.json```|

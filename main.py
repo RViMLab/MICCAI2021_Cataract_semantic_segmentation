@@ -29,7 +29,7 @@ if __name__ == '__main__':
                         help='remove blacklisted (mislabelled) data,'
                              ' if not provided this is set from the configuration file')
 
-    parser.add_argument('-rl', '--use_relabelled', type=bool, default=None,
+    parser.add_argument('-rl', '--use_relabeled', type=bool, default=None,
                         help='use relabelled, '
                              'if not provided this is set from the configuration file')
 
@@ -52,9 +52,9 @@ if __name__ == '__main__':
     if args.data_path:
         config['data_path'] = args.data_path
     if args.blacklisting:
-        config['data']['blacklisting'] = args.blacklisting
-    if args.use_relabelled:
-        config['data']['use_relabelled'] = args.use_relabelled
+        config['data']['blacklist'] = args.blacklisting
+    if args.use_relabeled:
+        config['data']['use_relabeled'] = args.use_relabeled
     if args.batch_size:
         config['data']['batch_size'] = args.batch_size
 

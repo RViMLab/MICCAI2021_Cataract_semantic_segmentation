@@ -4,7 +4,7 @@
 ![fig](https://github.com/RViMLab/MICCAI2021_Cataract_semantic_segmentation/blob/main/misc/fig1v2.PNG)
 
 > [**Effective Semantic Segmentation in Cataract Surgery: What matters most?**](https://arxiv.org/pdf/2108.06119),            
-> [Theodoros Pissas*](https://rvim.online/author/theodoros-pissas/), [Claudio S. Ravasio*](https://rvim.online/author/claudio-ravasio/), [Lyndon Da Cruz](), [Christos Bergeles](https://rvim.online/author/christos-bergeles/)  <br>
+> [Theodoros Pissas*](https://rvim.online/author/theodoros-pissas/), [Claudio S. Ravasio*](https://rvim.online/author/claudio-ravasio/), [Lyndon Da Cruz](), [Christos Bergeles](https://rvim.online/author/christos-bergeles/)  (* equal contribution) <br>
 >
 > *arXiv technical report ([arXiv 2108.06119](https://arxiv.org/pdf/2108.06119))*
 >
@@ -116,6 +116,7 @@ This work was supported through an Invention for Innovation grant [II-LB-0716-20
 through a grant [714562] by the [European Research Council][erc] and by Sir Michael Uren Foundation.
 
 ## Citation
+If you found this code useful please cite the following work:
 
 ```
 @InProceedings{10.1007/978-3-030-87202-1_49,

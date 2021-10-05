@@ -30,6 +30,13 @@ data oversampling methods as well as different loss functions. We show
 significant performance gains across network architectures and tasks especially on the rarest tool classes, thereby presenting an approach for
 achieving high performance when imbalanced granular datasets are considered. 
 
+[![PWC](https://img.shields.io/endpoint.svg?url=https://paperswithcode.com/badge/effective-semantic-segmentation-in-cataract/2d-semantic-segmentation-task-1-8-classes-on)](https://paperswithcode.com/sota/2d-semantic-segmentation-task-1-8-classes-on?p=effective-semantic-segmentation-in-cataract)
+
+[![PWC](https://img.shields.io/endpoint.svg?url=https://paperswithcode.com/badge/effective-semantic-segmentation-in-cataract/2d-semantic-segmentation-task-2-17-classes-on)](https://paperswithcode.com/sota/2d-semantic-segmentation-task-2-17-classes-on?p=effective-semantic-segmentation-in-cataract)
+
+[![PWC](https://img.shields.io/endpoint.svg?url=https://paperswithcode.com/badge/effective-semantic-segmentation-in-cataract/2d-semantic-segmentation-task-3-25-classes-on)](https://paperswithcode.com/sota/2d-semantic-segmentation-task-3-25-classes-on?p=effective-semantic-segmentation-in-cataract)
+
+
 ## Data and requirements
 1) CaDIS dataset can be found here [here](https://cataracts.grand-challenge.org/CaDIS/)
 
